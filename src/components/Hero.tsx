@@ -48,22 +48,22 @@ const Hero = () => {
           <div className="inline-flex items-center space-x-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm font-grotesk font-medium text-primary">
-              Agência Criativa Premium
+              Estúdio de Design Premium
             </span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-6xl md:text-8xl font-orbitron font-black leading-none">
             <span className="block text-foreground">CRIAMOS</span>
-            <span className="block text-gradient">EXPERIÊNCIAS</span>
+            <span className="block text-gradient">MARCAS</span>
             <span className="block text-foreground">MEMORÁVEIS</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto font-grotesk font-light leading-relaxed">
-            Somos uma agência digital focada em design premium, desenvolvimento web e
-            estratégias que transformam marcas em{" "}
-            <span className="text-primary font-medium">experiências únicas</span>.
+            Somos um estúdio criativo especializado em design gráfico, identidade visual e
+            criação de materiais que fazem{" "}
+            <span className="text-primary font-medium">marcas se destacarem</span>.
           </p>
 
           {/* CTA Buttons */}

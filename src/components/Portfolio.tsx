@@ -28,65 +28,65 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Luxo",
-      category: "E-commerce & Branding",
-      description: "Plataforma de e-commerce premium para marca de luxo com integração completa de pagamentos e experiência de usuário excepcional.",
+      title: "Marca Premium Café",
+      category: "Identidade Visual & Branding",
+      description: "Criação completa de identidade visual para cafeteria premium, incluindo logo, manual da marca e aplicações.",
       image: portfolio1,
-      technologies: ["Next.js", "Stripe", "Prisma", "Tailwind"],
-      longDescription: "Desenvolvemos uma plataforma de e-commerce completa para uma marca de luxo, focando em performance, segurança e experiência do usuário. O projeto incluiu design system personalizado, integração com múltiplos gateways de pagamento, sistema de gestão de estoque em tempo real e analytics avançado.",
+      technologies: ["Photoshop", "Illustrator", "InDesign", "After Effects"],
+      longDescription: "Desenvolvemos uma identidade visual completa para uma cafeteria premium, criando um conceito que transmite sofisticação e aconchego. O projeto incluiu pesquisa de mercado, desenvolvimento de logo, paleta de cores harmoniosa, tipografia exclusiva e aplicação em diversos materiais.",
       features: [
-        "Interface premium responsiva",
-        "Integração com Stripe e PayPal",
-        "Dashboard administrativo completo",
-        "Sistema de reviews e avaliações",
-        "SEO otimizado para conversões"
+        "Logo com conceito único",
+        "Manual de identidade completo",
+        "Papelaria corporativa",
+        "Aplicação em embalagens",
+        "Sinalização e decoração"
       ],
       results: {
-        conversion: "+120%",
-        performance: "95/100",
-        satisfaction: "98%"
+        reconhecimento: "+180%",
+        vendas: "+95%",
+        satisfacao: "97%"
       }
     },
     {
       id: 2,
-      title: "App Fintech",
-      category: "Mobile App & UX/UI",
-      description: "Aplicativo mobile para fintech com design intuitivo, recursos avançados de segurança e experiência de usuário premiada.",
+      title: "Campanha Fashion Week",
+      category: "Design Gráfico & Fotomanipulação",
+      description: "Materiais visuais para marca de moda durante Fashion Week, com fotomanipulação avançada e design impactante.",
       image: portfolio2,
-      technologies: ["React Native", "Firebase", "Expo", "TypeScript"],
-      longDescription: "Criamos um aplicativo mobile completo para uma fintech emergente, priorizando segurança, usabilidade e performance. O app inclui funcionalidades como transferências P2P, investimentos, cartões virtuais e um sistema de gamificação para engajamento do usuário.",
+      technologies: ["Photoshop", "Lightroom", "Illustrator", "Premiere"],
+      longDescription: "Criamos uma campanha visual completa para uma marca de moda durante a Fashion Week, utilizando técnicas avançadas de fotomanipulação e composição. O projeto envolveu tratamento de imagens de alta qualidade, criação de layouts para revista e materiais promocionais exclusivos.",
       features: [
-        "Autenticação biométrica",
-        "Transferências instantâneas",
-        "Carteira digital completa",
-        "Sistema de investimentos",
-        "Gamificação e recompensas"
+        "Fotomanipulação profissional",
+        "Layouts para revista",
+        "Materiais promocionais",
+        "Composições artísticas",
+        "Tratamento de cor avançado"
       ],
       results: {
-        downloads: "50K+",
-        rating: "4.8/5",
-        retention: "85%"
+        alcance: "2M+",
+        engajamento: "450%",
+        conversao: "78%"
       }
     },
     {
       id: 3,
-      title: "Rebrand Corporativo",
-      category: "Branding & Design System",
-      description: "Rebranding completo para empresa de tecnologia incluindo nova identidade visual, website e materiais de marketing.",
+      title: "Rebranding Restaurante",
+      category: "Branding & Material Gráfico",
+      description: "Renovação completa da marca de restaurante tradicional, incluindo nova identidade e todos os materiais gráficos.",
       image: portfolio3,
-      technologies: ["Figma", "Adobe Suite", "Webflow", "Motion Design"],
-      longDescription: "Executamos um rebranding completo para uma empresa de tecnologia B2B, criando uma nova identidade visual que reflete inovação e confiabilidade. O projeto incluiu pesquisa de mercado, desenvolvimento de logo, paleta de cores, tipografia e aplicação em todos os pontos de contato da marca.",
+      technologies: ["Illustrator", "Photoshop", "InDesign", "Figma"],
+      longDescription: "Executamos um rebranding completo para um restaurante tradicional que precisava modernizar sua imagem sem perder a essência familiar. O projeto incluiu nova identidade visual, cardápios redesenhados, uniforme da equipe e sinalização interna e externa.",
       features: [
-        "Pesquisa e estratégia de marca",
-        "Nova identidade visual completa",
-        "Design system escalável",
-        "Website responsivo premium",
-        "Material de marketing integrado"
+        "Nova identidade visual moderna",
+        "Cardápios com layout atrativo",
+        "Sinalização interna e externa",
+        "Uniformes personalizados",
+        "Materiais promocionais integrados"
       ],
       results: {
-        engagement: "+200%",
-        leads: "+150%",
-        recognition: "+85%"
+        movimento: "+230%",
+        fidelizacao: "+160%",
+        reconhecimento: "+190%"
       }
     }
   ];

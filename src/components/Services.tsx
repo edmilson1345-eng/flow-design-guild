@@ -32,40 +32,40 @@ const Services = () => {
 
   const services = [
     {
-      icon: Monitor,
-      title: "Desenvolvimento Web",
-      description: "Sites e aplicações web modernas, responsivas e otimizadas para performance máxima.",
-      features: ["React/Next.js", "Performance Otimizada", "SEO Avançado", "Mobile First"]
+      icon: Palette,
+      title: "Identidade Visual",
+      description: "Criação de logotipos únicos e sistemas de identidade visual completos para sua marca.",
+      features: ["Logo Design", "Manual da Marca", "Aplicações", "Variações"]
     },
     {
-      icon: Palette,
-      title: "Design & Branding",
-      description: "Criação de identidades visuais únicas que comunicam a essência da sua marca.",
-      features: ["Logo & Identidade", "Design System", "UI/UX Design", "Brand Guidelines"]
+      icon: Monitor,
+      title: "Design Gráfico",
+      description: "Peças gráficas profissionais para comunicação visual impactante e memorável.",
+      features: ["Cartões de Visita", "Flyers", "Banners", "Apresentações"]
     },
     {
       icon: Smartphone,
-      title: "Apps Mobile",
-      description: "Aplicativos nativos e híbridos com experiência de usuário excepcional.",
-      features: ["iOS & Android", "React Native", "Performance Nativa", "App Store Deploy"]
+      title: "Design Digital",
+      description: "Materiais digitais otimizados para redes sociais e plataformas online.",
+      features: ["Posts Instagram", "Stories", "Banners Web", "E-mail Marketing"]
     },
     {
       icon: ShoppingCart,
-      title: "E-commerce",
-      description: "Lojas online completas com integração de pagamentos e gestão avançada.",
-      features: ["Shopify/WooCommerce", "Gateway Pagamento", "Gestão Estoque", "Analytics"]
+      title: "Materiais Comerciais",
+      description: "Catálogos, folders e materiais promocionais que convertem visitantes em clientes.",
+      features: ["Catálogos", "Folders", "Cardápios", "Embalagens"]
     },
     {
       icon: Search,
-      title: "SEO & Marketing",
-      description: "Estratégias digitais para aumentar sua visibilidade online e gerar mais leads.",
-      features: ["SEO Técnico", "Google Ads", "Social Media", "Content Marketing"]
+      title: "Fotomanipulação",
+      description: "Edição e manipulação profissional de imagens usando técnicas avançadas do Photoshop.",
+      features: ["Retoque Profissional", "Composições", "Efeitos Especiais", "Correção de Cor"]
     },
     {
       icon: TrendingUp,
-      title: "Consultoria Digital",
-      description: "Análise completa e estratégias personalizadas para transformação digital.",
-      features: ["Auditoria Digital", "Estratégia Growth", "Analytics", "Otimização"]
+      title: "Consultoria Visual",
+      description: "Análise e estratégias visuais para posicionamento de marca e comunicação eficaz.",
+      features: ["Análise de Marca", "Estratégia Visual", "Benchmarking", "Direcionamento"]
     }
   ];
 

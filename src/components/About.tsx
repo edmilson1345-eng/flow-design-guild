@@ -33,23 +33,23 @@ const About = () => {
               </span>
             </div>
             <h2 className="text-4xl md:text-6xl font-orbitron font-black text-foreground">
-              NOSSA <span className="text-gradient">MISSÃO</span>
+              NOSSA <span className="text-gradient">PAIXÃO</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-grotesk font-light">
-              Transformamos ideias em experiências digitais que conectam marcas e pessoas
+              Criamos identidades visuais que conectam marcas com suas audiências de forma autêntica
             </p>
           </div>
 
           {/* Mission Statement */}
           <div className="card-premium p-8 md:p-12 text-center">
             <blockquote className="text-2xl md:text-3xl font-grotesk font-light text-foreground leading-relaxed">
-              "Acreditamos que cada projeto é uma oportunidade de criar algo{" "}
-              <span className="text-primary font-medium">extraordinário</span>. 
-              Nossa paixão é transformar visões em realidade digital através de 
-              design inovador e tecnologia de ponta."
+              "Acreditamos que cada design conta uma história única. Nossa paixão é criar{" "}
+              <span className="text-primary font-medium">identidades visuais</span> 
+              que transmitam a essência de cada marca através de elementos gráficos 
+              impactantes e memoráveis."
             </blockquote>
             <footer className="mt-6 text-muted-foreground font-grotesk">
-              — Equipe Apex Digital
+              — Estúdio Criativo
             </footer>
           </div>
 
@@ -63,7 +63,7 @@ const About = () => {
                 Inovação
               </h3>
               <p className="text-muted-foreground font-grotesk">
-                Sempre buscamos as soluções mais criativas e tecnologias emergentes
+                Buscamos sempre soluções criativas inovadoras e técnicas de design atual
               </p>
             </div>
 
@@ -75,7 +75,7 @@ const About = () => {
                 Qualidade
               </h3>
               <p className="text-muted-foreground font-grotesk">
-                Cada projeto é executado com perfeição e atenção aos detalhes
+                Cada peça gráfica é executada com perfeição e atenção aos detalhes
               </p>
             </div>
 
@@ -99,7 +99,7 @@ const About = () => {
                 Resultados
               </h3>
               <p className="text-muted-foreground font-grotesk">
-                Focamos em entregar soluções que geram impacto real nos negócios
+                Focamos em criar materiais visuais que geram impacto real nas marcas
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@ const About = () => {
                   10+
                 </div>
                 <div className="text-muted-foreground font-grotesk">
-                  Especialistas Criativos
+                  Designers Especializados
                 </div>
               </div>
               <div>
