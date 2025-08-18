@@ -1,39 +1,359 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apex Digital - Agência Criativa Premium</title>
-    <meta name="description" content="Agência digital especializada em design premium, desenvolvimento web e estratégias que transformam marcas em experiências memoráveis." />
-    <meta name="author" content="Apex Digital" />
-    <meta name="keywords" content="agência digital, design premium, desenvolvimento web, branding, marketing digital, São Paulo" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCraft Studio - Agência de Design Gráfico Premium</title>
+    <meta name="description" content="Agência especializada em design gráfico, identidade visual e materiais promocionais. Transformamos suas ideias em arte visual impactante.">
+    
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1 class="logo">PixelCraft</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+    </header>
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Apex Digital - Agência Criativa Premium" />
-    <meta property="og:description" content="Criamos experiências digitais memoráveis através de design inovador e tecnologia de ponta." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://apexdigital.com" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Design que <span class="text-gradient">Inspira</span>
+                <br>Arte que <span class="text-gradient">Transforma</span>
+            </h1>
+            <p class="hero-subtitle">
+                Criamos identidades visuais únicas e materiais gráficos que fazem sua marca se destacar no mercado
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-hero" onclick="scrollToSection('portfolio')">Ver Portfólio</button>
+                <button class="btn-ghost" onclick="scrollToSection('contact')">Falar Conosco</button>
+            </div>
+        </div>
+        <div class="hero-floating-elements">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </section>
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@apexdigital" />
-    <meta name="twitter:title" content="Apex Digital - Agência Criativa Premium" />
-    <meta name="twitter:description" content="Transformamos ideias em experiências digitais memoráveis" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p class="section-subtitle">Uma equipe apaixonada por transformar ideias em arte visual</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-title">Criatividade sem limites</h3>
+                    <p class="about-description">
+                        Somos uma agência especializada em design gráfico com mais de 5 anos de experiência 
+                        criando identidades visuais marcantes. Nossa paixão é transformar conceitos em peças 
+                        visuais que comunicam, envolvem e inspiram.
+                    </p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number" data-target="150">0</div>
+                            <div class="stat-label">Projetos Concluídos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-label">Clientes Satisfeitos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i data-lucide="palette" class="about-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Theme -->
-    <meta name="theme-color" content="#D4AF37" />
-    <meta name="color-scheme" content="dark" />
-  </head>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções completas em design gráfico para sua marca</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3 class="service-title">Identidade Visual</h3>
+                    <p class="service-description">
+                        Criação de logotipos, paletas de cores, tipografia e manual da marca completo
+                    </p>
+                    <ul class="service-features">
+                        <li>Logotipo profissional</li>
+                        <li>Manual da marca</li>
+                        <li>Paleta de cores</li>
+                        <li>Tipografia exclusiva</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3 class="service-title">Design Editorial</h3>
+                    <p class="service-description">
+                        Diagramação de revistas, livros, catálogos e materiais editoriais
+                    </p>
+                    <ul class="service-features">
+                        <li>Revistas e jornais</li>
+                        <li>Livros e e-books</li>
+                        <li>Catálogos de produtos</li>
+                        <li>Relatórios anuais</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="image"></i>
+                    </div>
+                    <h3 class="service-title">Material Promocional</h3>
+                    <p class="service-description">
+                        Flyers, banners, cartões de visita e materiais para eventos
+                    </p>
+                    <ul class="service-features">
+                        <li>Flyers e panfletos</li>
+                        <li>Banners e outdoors</li>
+                        <li>Cartões de visita</li>
+                        <li>Materiais para eventos</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+                    <h3 class="service-title">Design Digital</h3>
+                    <p class="service-description">
+                        Posts para redes sociais, banners web e materiais digitais
+                    </p>
+                    <ul class="service-features">
+                        <li>Posts para redes sociais</li>
+                        <li>Banners para web</li>
+                        <li>E-mail marketing</li>
+                        <li>Apresentações</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nosso Portfólio</h2>
+                <p class="section-subtitle">Alguns dos nossos trabalhos mais marcantes</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" onclick="openModal('modal1')">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop" alt="Projeto 1">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Identidade Visual - TechCorp</h3>
+                                <p>Branding completo para empresa de tecnologia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" onclick="openModal('modal2')">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=500&h=300&fit=crop" alt="Projeto 2">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Material Editorial - Revista Modern</h3>
+                                <p>Design e diagramação de revista mensal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" onclick="openModal('modal3')">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=500&h=300&fit=crop" alt="Projeto 3">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Campanha Digital - Green Life</h3>
+                                <p>Posts e materiais para redes sociais</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Criar Juntos?</h2>
+                <p class="section-subtitle">Entre em contato e vamos dar vida às suas ideias</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Fale Conosco</h3>
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <span>contato@pixelcraft.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <span>(11) 99999-9999</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>São Paulo, SP</span>
+                    </div>
+                </div>
+                
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Seu nome">
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Seu e-mail">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder="Sua mensagem" rows="5"></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                        <span>Enviar Mensagem</span>
+                        <i data-lucide="send"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">PixelCraft</h3>
+                    <p class="footer-description">
+                        Transformando ideias em arte visual desde 2019
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#services">Identidade Visual</a></li>
+                            <li><a href="#services">Design Editorial</a></li>
+                            <li><a href="#services">Material Promocional</a></li>
+                            <li><a href="#services">Design Digital</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#about">Sobre Nós</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Nos siga</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 PixelCraft Studio. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Identidade Visual - TechCorp</h2>
+            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=500&fit=crop" alt="TechCorp Project">
+            <p>Projeto completo de identidade visual para empresa de tecnologia, incluindo logotipo, paleta de cores, tipografia e aplicações.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Material Editorial - Revista Modern</h2>
+            <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&h=500&fit=crop" alt="Modern Magazine">
+            <p>Design e diagramação completa de revista mensal, com foco em layout moderno e legibilidade.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Campanha Digital - Green Life</h2>
+            <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&h=500&fit=crop" alt="Green Life Campaign">
+            <p>Campanha completa para redes sociais com posts, stories e materiais promocionais digitais.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
